@@ -1,4 +1,5 @@
 int a = 1;
-glosC{
+glos cGlos(langC)@{@
 	printf("Hello! @a");
-}
+@}@;
+cGlos.RunLoud();
