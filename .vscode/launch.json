@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}\\bin\\Debug\\netcoreapp1.1\\Tildehyph-lang.dll",
+            "program": "${workspaceRoot}\\bin\\Debug\\netcoreapp1.1\\Polyglos.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "externalConsole": false,

@@ -1,5 +1,15 @@
-int a = 1;
-glos cGlos(langC)@{@
-	printf("Hello! @a");
+int a = 1984;
+glos cGlos = langC@{@
+	printf("Hello C! @a");
 @}@;
 cGlos.RunLoud();
+a = 2-1;
+glos textGlos = textfile@{@
+pes je cislo @a pritel cloveka.
+@}@;
+textGlos.RunLoud();
+a = @a+1;
+glos pyGlos = langPython@{@
+print("Hello Python! @a")
+@}@;
+pyGlos.RunLoud();
